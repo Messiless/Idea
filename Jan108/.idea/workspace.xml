@@ -28,7 +28,6 @@
             <state relative-caret-position="361">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
                 <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
               </folding>
@@ -49,8 +48,8 @@
       <file leaf-file-name="Demo3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/Demo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/demo/Demo1.java" />
         <option value="$PROJECT_DIR$/src/demo/Demo2.java" />
         <option value="$PROJECT_DIR$/src/demo/Demo3.java" />
+        <option value="$PROJECT_DIR$/src/demo/ProCon.java" />
       </list>
     </option>
   </component>
@@ -150,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,9 +211,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,14 +223,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/daima" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Idea\Jan108\src\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo3">
+  <component name="RunManager" selected="Application.ProConDemo">
     <configuration default="false" name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -279,6 +279,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="demo.Demo3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Jan108" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProConDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="demo.ProConDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -762,16 +782,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Demo1" />
       <item index="1" class="java.lang.String" itemvalue="Application.Demo2" />
       <item index="2" class="java.lang.String" itemvalue="Application.Demo3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ProConDemo" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ProConDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -791,11 +813,12 @@
       <workItem from="1484114231794" duration="8092000" />
       <workItem from="1484382769365" duration="12097000" />
       <workItem from="1484449339061" duration="4102000" />
+      <workItem from="1484483488523" duration="3435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32315000" />
+    <option name="totallyTimeSpent" value="35750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,12 +830,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -861,10 +884,63 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
+            <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/JdbcUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jan108.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
             <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
           </folding>
@@ -908,7 +984,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
             <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
           </folding>
@@ -944,7 +1019,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
             <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
           </folding>
@@ -980,7 +1054,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
             <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
           </folding>
@@ -1008,7 +1081,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
             <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
           </folding>
@@ -1040,18 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
-            <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1060,10 +1120,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1484137197604" expanded="true" signature="446:497" ph="UPDATE just3... " />
+            <marker date="1484137197604" expanded="true" signature="525:575" ph="UPDATE just3... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/ProCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/Demo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
