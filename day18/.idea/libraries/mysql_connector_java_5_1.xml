@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.1">
+    <CLASSES>
+      <root url="file://E:/就业/day17_jdbc加强/03.资料和工具/mysql驱动包/mysql-connector-java-5.1.7" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/就业/day17_jdbc加强/03.资料和工具/mysql驱动包/mysql-connector-java-5.1.7/src" />
+    </SOURCES>
+    <jarDirectory url="file://E:/就业/day17_jdbc加强/03.资料和工具/mysql驱动包/mysql-connector-java-5.1.7" recursive="false" />
+  </library>
+</component>
