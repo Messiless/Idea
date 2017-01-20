@@ -2,6 +2,7 @@
   <library name="mysql-connector-java-5.1">
     <CLASSES>
       <root url="file://E:/就业/day17_jdbc加强/03.资料和工具/mysql驱动包/mysql-connector-java-5.1.7" />
+      <root url="jar://E:/就业/day18_dbutils/04. C3P0连接池/c3p0-0.9.1.2/lib/c3p0-0.9.1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
