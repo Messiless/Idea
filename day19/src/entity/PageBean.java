@@ -1,4 +1,4 @@
-package demo;
+package entity;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class PageBean {
     }
 
     public int getFirstPage() {
-        return FirstPage;
+        return 1;
     }
 
     public void setFirstPage(int firstPage) {
@@ -32,7 +32,10 @@ public class PageBean {
     }
 
     public int getLastPage() {
-        return LastPage;
+        return this.getCountPage()%this.getEveryPage()==0
+                ?this.getCountPage()/this.getEveryPage()
+                :this.getCountPage()/this.getEveryPage()+1
+        ;
     }
 
     public void setLastPage(int lastPage) {
@@ -40,7 +43,7 @@ public class PageBean {
     }
 
     public int getCheckPage() {
-        return CheckPage;
+         return CheckPage;
     }
 
     public void setCheckPage(int checkPage) {
@@ -48,7 +51,7 @@ public class PageBean {
     }
 
     public int getNextPage() {
-        return NextPage;
+        return this.getCheckPage()==this.getLastPage()?this.getLastPage():this.getCheckPage()+1;
     }
 
     public void setNextPage(int nextPage) {
@@ -56,7 +59,7 @@ public class PageBean {
     }
 
     public int getBeforePage() {
-        return BeforePage;
+        return this.getCheckPage()==this.getFirstPage()?1:this.getCheckPage()-1;
     }
 
     public void setBeforePage(int beforePage) {

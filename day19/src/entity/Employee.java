@@ -1,4 +1,4 @@
-package demo;
+package entity;
 
 /**
  * Created by Computer on 2017/1/22.
@@ -10,6 +10,18 @@ public class Employee {
     private String title;
     private String email;
     private double salary;
+    public  Employee(){
+        super();
+    }
+
+    public Employee(int id, String name, String gender, String title, String email, double salary) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.title = title;
+        this.email = email;
+        this.salary = salary;
+    }
 
     public int getId() {
         return id;
