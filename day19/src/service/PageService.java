@@ -19,8 +19,8 @@ public class PageService {
         PageDemo p=new PageDemo();
 
         //总数量
-        int cout=p.getCounts();
-        pageBean.setCountPage(cout);
+        int count=p.getCounts();
+        pageBean.setCountPage(count);
         List<Employee> list= p.getPageEm(pageBean.getCheckPage(),pageBean.getEveryPage());
         pageBean.setList(list);
         return pageBean;

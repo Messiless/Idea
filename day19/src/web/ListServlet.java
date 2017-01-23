@@ -21,9 +21,14 @@ doGet(request,response);
         if(checkPage==null ||checkPage.equals("")){
          checkPage="1";
         }
+       String avg= request.getParameter("pageAvg");
+        if(avg==null||avg==""){
+           avg="5";
+        }
         int c1=Integer.parseInt(checkPage);
+          int a1=Integer.parseInt(avg);
         PageService pa=new PageService();
-        PageBean pageBean=pa.getPageBean(c1,3 );
+        PageBean pageBean=pa.getPageBean(c1,a1);
          request.setAttribute("pageBean",pageBean);
 
         request.getRequestDispatcher("/PageTry.jsp").forward(request,response);
