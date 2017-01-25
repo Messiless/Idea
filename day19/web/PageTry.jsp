@@ -12,6 +12,16 @@
     <title>it is a try</title>
 </head>
 <body>
+<form action="/SelectServlet" >
+    <table>
+               <tr>
+                   <th></th>
+                   <th></th>
+                   <th></th>
+                   <th></th>
+               </tr>
+    </table>
+</form>
 <table align="center" border="1" width="800px" >
 <tr>
     <th>编号</th>
