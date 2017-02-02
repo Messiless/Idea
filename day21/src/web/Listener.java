@@ -1,4 +1,4 @@
-/**
+package web; /**
  * Created by Computer on 2017/2/2.
  */
 
@@ -56,6 +56,7 @@ public class Listener implements ServletContextListener,
       /* This method is called when an attribute 
          is added to a session.
       */
+      
     }
 
     public void attributeRemoved(HttpSessionBindingEvent sbe) {
