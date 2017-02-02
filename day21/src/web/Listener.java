@@ -4,15 +4,17 @@ package web; /**
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSessionAttributeListener;
+import javax.servlet.http.HttpSessionBindingEvent;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
-import javax.servlet.http.HttpSessionBindingEvent;
 
 @WebListener()
 public class Listener implements ServletContextListener,
-        HttpSessionListener, HttpSessionAttributeListener {
+        HttpSessionListener, HttpSessionAttributeListener,ServletRequestListener{
 
     // Public constructor is required by servlet spec
     public Listener() {
@@ -56,7 +58,7 @@ public class Listener implements ServletContextListener,
       /* This method is called when an attribute 
          is added to a session.
       */
-      
+
     }
 
     public void attributeRemoved(HttpSessionBindingEvent sbe) {
@@ -69,5 +71,15 @@ public class Listener implements ServletContextListener,
       /* This method is invoked when an attibute
          is replaced in a session.
       */
+    }
+
+    @Override
+    public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
+        
+    }
+
+    @Override
+    public void requestInitialized(ServletRequestEvent servletRequestEvent) {
+
     }
 }
