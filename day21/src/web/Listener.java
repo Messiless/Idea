@@ -75,7 +75,7 @@ public class Listener implements ServletContextListener,
 
     @Override
     public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
-        
+
     }
 
     @Override
