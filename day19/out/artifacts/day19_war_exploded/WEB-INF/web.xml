@@ -11,4 +11,12 @@
         <servlet-name>ListServlet</servlet-name>
         <url-pattern>/ListServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SelectServlet</servlet-name>
+        <servlet-class>web.SelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> SelectServlet</servlet-name>
+        <url-pattern>/SelectServlet </url-pattern>
+    </servlet-mapping>
 </web-app>

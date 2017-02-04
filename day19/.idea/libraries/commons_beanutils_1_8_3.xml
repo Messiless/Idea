@@ -2,6 +2,8 @@
   <library name="commons-beanutils-1.8.3">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-pool-1.5.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
